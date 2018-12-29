@@ -1,0 +1,54 @@
+var KEY_BACK = 8
+var KEY_TAB = 9
+var KEY_F1 = 112
+var KEY_F2 = 113
+var KEY_F3 = 114
+var KEY_F4 = 115
+var KEY_F5 = 116
+var KEY_F6 = 117
+var KEY_F7 = 118
+var KEY_F8 = 119
+var KEY_F9 = 120
+var KEY_F10 = 121
+var KEY_F11 = 122
+var KEY_F12 = 123
+var KEY_CAPS = 240
+
+$(function(){
+	$("body").on("keydown", function(e) {
+
+		switch (e.keyCode) {
+			case KEY_CAPS:
+				setTimeout(function(){
+					$("#" + e.keyCode).removeClass("keyDown");
+				},200)
+				break;
+			case KEY_F1 :
+				window.onhelp = noHelp;
+			case KEY_F2 :
+			case KEY_F3 :
+			case KEY_F4 :
+			case KEY_F5 :
+			case KEY_F6 :
+			case KEY_F7 :
+			case KEY_F8 :
+			case KEY_F9 :
+			case KEY_F10:
+			case KEY_F11:
+			case KEY_F12:
+			case KEY_BACK:
+			case KEY_TAB:
+				e.preventDefault();
+				e.stopPropagation();
+				e.returnValue;
+			default: break;
+		}
+
+	})
+
+})
+
+/* f1押下時ヘルプ画面表示抑止 */
+function noHelp(){
+	return false;
+}

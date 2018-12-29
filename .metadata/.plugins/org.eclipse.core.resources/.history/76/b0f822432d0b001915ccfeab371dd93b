@@ -1,0 +1,175 @@
+.modal-area{
+	z-index:1;
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:120%;
+	background-color:rgba(0,0,0,0.75);
+}
+
+.contents-area{
+	display:none;
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	margin:auto;
+	padding:10px 20px;
+	width:700px;
+	height:450px;
+	border:2px solid #aaa;
+	background:#fff;
+	z-index:2;
+}
+
+.button-area{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+}
+
+ .modal_footer_left{
+	position:absolute;
+	left:0px;
+}
+
+ .modal_footer_middle{
+	text-align:center;
+}
+
+.modal_footer_right{
+	position:absolute;
+	right:0px;
+}
+
+.result-table{
+	width:100%;
+}
+
+.result-table td > span{
+	font-size:35px;
+}
+
+.ranking-table{
+	border:solid;
+	width:100%;
+	height:400px;
+}
+
+.ranking-table td > span{
+	font-size:28px;
+}
+
+body{
+	background: #333;
+}
+
+.screen-area {
+	margin:75px auto 30px;
+	height: 200px;
+	width: 380px;
+	background: black;
+	opacity: 0.6;
+	border-radius: 10px;
+}
+
+strong{
+	margin:auto;
+	color:#AAA;
+	font-size:32px;
+}
+
+.capital-area {
+	padding:60px 0px 0px 0px;
+	height:50px;
+	text-align: center;
+	color: #AAA;
+	font: bold 30px arial;
+}
+
+.progress-area{
+	margin:20px auto;
+	width:250px;
+	height:20px;
+}
+
+.information-table{
+	margin:0px auto;
+	width:400px;
+	background-color:black;
+	border-radius:10px 10px 0px 0px;
+	color:#AAA;
+}
+
+.information-table td{
+	width:80px;
+	text-align:center;
+}
+
+.information-table td:nth-child(2n){
+	width:40px;
+	text-align:right;
+}
+
+.board-area {
+	position:relative;
+	margin:0px auto;
+	height: 300px;
+	width: 940px;
+	background-color: black;
+	border-radius: 15px;
+}
+
+.enter-area {
+	position: absolute;
+	top: 70px;
+	right: 36px;
+	margin:0px;
+	padding:0px;
+}
+
+.arrows-area {
+	position: absolute;
+	right: 31px;
+	bottom: 5px;
+	width: 165px;
+	height: 60px;
+	margin:0px;
+	padding:0px;
+}
+
+.errmsg {
+	text-align:left;
+	color:white;
+	background-color:blue;
+	border:solid 2px darkslateblue;
+	border-radius:7px;
+	position: fixed;
+	padding:20px;
+	z-index:3;
+}
+
+.errmsg:before,
+.errmsg:after {
+	position: absolute;
+	content: '';
+	border-style:solid;
+}
+
+.errmsg:before {
+	border-width: 17px 12px 0px 12px;
+	border-color:darkslateblue transparent transparent transparent;
+	bottom:100%;
+	left: 10px;
+}
+
+.errmsg:after {
+	border-width: 15px 10px 0px 10px;
+	border-color:blue transparent transparent transparent;
+	bottom:100%;
+	left: 12.5px;
+}

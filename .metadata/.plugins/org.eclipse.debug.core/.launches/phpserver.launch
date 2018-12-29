@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.php.server.core.launchConfigurationType">
+<stringAttribute key="ATTR_INI_LOCATION" value="C:\pleiades\xampp\php\php.ini"/>
+<stringAttribute key="ATTR_LOCATION" value="C:\pleiades\xampp\php\php.exe"/>
+<stringAttribute key="base_url" value="http://localhost:8810"/>
+<stringAttribute key="debugOutputEncoding" value="UTF-8"/>
+<stringAttribute key="debugTransferEncoding" value="UTF-8"/>
+<stringAttribute key="name" value="phpserver"/>
+<stringAttribute key="php_debug_type" value="php_web_page_debug"/>
+<stringAttribute key="server-id" value="phpserver"/>
+</launchConfiguration>

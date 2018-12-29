@@ -1,0 +1,100 @@
+.keyboard {
+	height: 41px;
+	min-width: 24px;
+	padding: 0 10px;
+	margin: 5px 10px;
+	background: #FFF;
+	border-radius: 4px;
+	border-top: 1px solid #F5F5F5;
+	box-shadow: 0 0 25px #E8E8E8 inset, 0 1px 0 #C3C3C3, 0 2px 0 #C9C9C9, 0
+		2px 3px #333333;
+	color: #666;
+	text-shadow: 0 1px 0 #F5F5F5;
+	font: bold 14px arial;
+	text-align: center;
+	line-height: 41px;
+	display: inline-block;
+}
+
+li{
+	height: 41px;
+	min-width: 24px;
+	padding: 0 10px;
+	margin: 5px 5px;
+	background: #222;
+	border-radius: 4px;
+	border-top: 1px solid #222222;
+	box-shadow: 0 0 25px #333333 inset, 0 1px 0 #000000, 0 2px 0 #222222, 0 2px 3px #333333;
+	color: #AAA;
+	text-shadow: 0 -1px 0 #000000;
+	font: bold 14px arial;
+	text-align: center;
+	line-height: 41px;
+	display: inline-block;
+}
+
+.key_tab {
+	min-width: 53px;
+}
+
+.key_enter {
+	height: 95px;
+	min-width: 55px;
+}
+
+.key_caps {
+	min-width: 60px;
+}
+
+.key_shift {
+	min-width: 83px;
+}
+
+.key_space {
+	min-width: 110px;
+}
+
+.key_arrows {
+	height: 22px;
+	line-height: 14px;
+}
+
+.key_arrowUp {
+	position: absolute;
+	top: -3%;
+	left: 32%;
+}
+
+.key_arrowDown {
+	position: absolute;
+	bottom: 0%;
+	left: 32%;
+}
+
+.key_arrowLeft {
+	position: absolute;
+	bottom: 0%;
+	left: -2%;
+}
+
+.key_arrowRight {
+	position: absolute;
+	bottom: 0%;
+	right: 1%;
+}
+
+.board-parts1{
+	padding-top:15px;
+}
+
+.board-parts1, .board-parts2, .board-parts3, .board-parts4, .board-parts5 {
+	margin:0px;
+	padding-left:35px;
+	height: 55px;
+}
+
+.keyDown {
+	color:yellow;
+	background:#ffff00;
+	;
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/phpserver-config" hostname="localhost" id="phpserver" name="phpserver" runtime-id="phpserver" server-type="org.eclipse.php.server.builtin" server-type-id="org.eclipse.php.server.builtin" start-timeout="30" stop-timeout="15" timestamp="1"/>
+</servers>
